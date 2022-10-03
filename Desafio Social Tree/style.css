@@ -1,0 +1,83 @@
+/*Gerais*/
+body{
+    background-color: #FAF7FD;
+}
+a {
+    color:#BB99DD;
+    font-family: 'Poppins', sans-serif;
+}
+ul {
+    list-style: none;
+    text-align: center;
+}
+header{
+    margin-top: 30px;
+    margin-left: 33px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 52px;
+}
+
+/*Header*/
+header #head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+header #imgPerfil{
+    max-width: 200px;
+    max-height: 200px;
+    padding: 6px 7px;
+    border: 3px  solid #BB99DD;
+    border-radius: 360px;
+}
+header #imgPerfil img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Corta a imagem para o tamanho definido, sem que ela se reajuste disproporcionalmente*/
+    
+    border-radius: 360px;
+}
+header p {
+    font-family: 'Poppins', sans-serif;
+    color:#BB99DD;
+}
+
+/*Section*/
+section ul li{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+section ul li a{
+    text-decoration: none; /* retira o estilo padrão do link*/
+}
+
+section ul li .boxLink{
+    width: 326px;
+    height: 49px;
+    border: 1px solid;
+    border-radius: 90px;
+}
+
+section .boxLink p {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Footer*/
+footer ul{
+    width: 236px;
+    height: 24px;
+}
+
+footer ul #boxSocial{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
